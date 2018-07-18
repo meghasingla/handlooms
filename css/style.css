@@ -51,8 +51,8 @@ a:hover {
     min-height:400px;
 }
 .banner5 {
-    background: url(../images/1.jpg)no-repeat center fixed;
-    background-size: cover;
+    background: url(../images/flow1.jpg)no-repeat center fixed;
+    /*background-size: cover;*/
     min-height:400px;
 }
 .banner6 {
