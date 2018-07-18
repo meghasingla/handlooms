@@ -1054,7 +1054,7 @@ span.con-location {
 }
 .con-para h6 {
     font-size: 1.1em;
-    color: #ff9933;
+    color: #006699;
         text-transform: uppercase;
     font-family: Proxima Nova;;
     margin-bottom: 0.2em;
@@ -1098,11 +1098,11 @@ textarea {
     font-size: 1em;
     color: #fff;
     border: none;
-    background:#ff9933;
+    background:#006699;
     padding: 0.5em 1em;
     outline: none;
     margin: 0.8em 0em;
-    border-bottom: 3px solid #ff9933;
+    border-bottom: 3px solid #006699;
 }
 .contact-right input[type="submit"]:hover{
     background:#767676;
