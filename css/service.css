@@ -1,0 +1,63 @@
+body {
+    font-family: 'Roboto';font-size: 17px;
+}
+.latest-product-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+h2 {
+    font-size: 30px;
+}
+
+
+p {
+
+    font-size: 15px;
+    font-weight: 400;
+    color: #6b6b6d;
+    margin-bottom: 15px;
+    text-align: justify;
+
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    color: #ef8923;
+    line-height: 0.4;
+    margin: 19px 0 15px;
+    text-transform: uppercase;
+    font-family: Proxima Nova;
+
+}
+h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
+    color: #006699;
+}
+.margin-b-20 {
+    margin-bottom: 20px !important;
+}
+
+.margin-b-40 {
+    margin-bottom: 40px !important;
+}
+
+.margin-b-50 {
+    margin-bottom: 40px !important;
+}
+ a:hover {
+    color: #999caa;
+    text-decoration: none;
+}
+span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+a:active, a:focus, a:hover {
+    color: #138AC3;
+}
+.text-uppercase {
+    text-transform: uppercase;
+}
+.link {
+    font-size: 13px;
+    font-weight: 600;
+}
