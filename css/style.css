@@ -35,49 +35,61 @@ a:hover {
 .banner.about {
     background: url(../images/aboutus1.jpg)no-repeat center fixed;
 }
+.banner.services {
+    background: url(../images/products1.jpg)no-repeat center fixed;
+}
+.banner.process {
+    background: url(../images/flow1.jpg)no-repeat center fixed;
+}
+.banner.gallery {
+    background: url(../images/gallery1.jpg)no-repeat center fixed;
+}
+.banner.contact {
+    background: url(../images/contact1.jpg)no-repeat center fixed;
+}
 
-.banner1 {
+/*.banner1 {
     /*background-size: cover;*/
-    min-height:400px;
+  /*  min-height:400px;
    
     width: 1351px;
      background-size:100% ;
-}
-.banner2 {
+}*/
+/*.banner2 {
     background: url(../images/products1.jpg)no-repeat center fixed;
-    /*background-size: cover*/    min-height:400px;
+    /*background-size: cover    min-height:400px;
     background-size: 100%;
-}
-.banner3 {
+}*/
+/*.banner3 {
     background: url(../images/contact1.jpg)no-repeat center fixed;
-   /* background-size: cover;*/
+   /* background-size: cover;
     min-height:400px;
      background-size:100% ;
-}
-.banner4 {
+}*/
+/*.banner4 {
     background: url(../images/b5.jpg)no-repeat center fixed;
-   /* background-size: cover;*/
+   /* background-size: cover;
     min-height:400px;
      background-size:100% ;
-}
-.banner5 {
+}*/
+/*.banner5 {
     background: url(../images/flow1.jpg)no-repeat center fixed;
-    /*background-size: cover;*/
+    /*background-size: cover;
     min-height:400px;
      background-size:100% ;
-}
-.banner6 {
+}*/
+/*.banner6 {
     background: url(../images/co.jpg)no-repeat center fixed;
-/*background-size: cover;*/
+/*background-size: cover;
     min-height:400px;
      background-size:100% ;
-}
-.banner7 {
+}*/
+/*.banner7 {
     background: url(../images/gallery1.jpg)no-repeat center fixed;
-    /*background-size: cover*/ 
+    /*background-size: cover
        min-height:400px;
         background-size:100% ;
-}
+}*/
 
 .header {
     padding: -2em 0;
@@ -482,7 +494,7 @@ span.quot1 {
   padding: 0em 0em 5em 0em;
 }
 .about {
-  padding: 4em 0em 0em 0em;
+ /* padding: 4em 0em 0em 0em;*/
 }
 .about-main {
   background: #fff;
@@ -673,7 +685,7 @@ h3.typo1 {
 /*--//short codes--*/
 /*--galler start here--*/
 .gallery {
-  padding: 4em 0em;
+  /*padding: 4em 0em;*/
 }
 .gallery-top h2 {
   font-size: 2.5em;
@@ -1022,7 +1034,7 @@ figure.effect-bubba:hover p {
 /*--//service--*/
 /*--contact strat here--*/
 .contact {
-    padding: 5em 0em;
+   /* padding: 5em 0em;*/
 }
 .contact-top h2 {
     font-size: 2.5em;

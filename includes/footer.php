@@ -19,14 +19,14 @@
 				<div class="footer-container">
 					<div class="footer-links">
 						<div class="">
-							<a href="index.html" >HOME<!--<img src="images/g6.jpg" alt=" " class="img-responsive">--></a><BR>
-							<a href="about.html">ABOUT<!--<img src="images/g5.jpg" alt=" " class="img-responsive">--></a><BR>
-							<a href="services.html">PRODUCTS</a><BR>
-							<a href="gallery.html">GALLERY</a>
+							<a href="index.php" >HOME<!--<img src="images/g6.jpg" alt=" " class="img-responsive">--></a><BR>
+							<a href="about.php">ABOUT<!--<img src="images/g5.jpg" alt=" " class="img-responsive">--></a><BR>
+							<a href="services.php">PRODUCTS</a><BR>
+							<a href="gallery.php">GALLERY</a>
 						</div>
 						<div class="">
-			 				<a href="process.html">FLOW</a><br>
-			 				<a href="contact.html">CONTACT</a>
+			 				<a href="process.php">FLOW</a><br>
+			 				<a href="contact.php">CONTACT</a>
 						</div>
 					</div>
 				</div>
@@ -52,5 +52,9 @@
 	</div>
 <!--/copy rights-->
 <script src="js/main.js"></script>
+<script>
+	var link = window.location.pathname.replace('/', '');
+    $('a[href="'+ link +'"]').addClass('active').parent('li').siblings('li').find('a').removeClass('active');
+</script>
 </body>
 </html>
