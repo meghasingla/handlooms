@@ -26,10 +26,9 @@ a:hover {
 /*--header start here--*/
 .banner {
     background: url(../images/2.jpg)no-repeat center fixed ;
-   /* background-size: cover;*/
+    background-size: cover;
    width: 100%;
-    min-height: 800px;
-    background-size:100% 100%;
+   min-height: 800px;
 }
 .banner1 {
     background: url(../images/aboutus1.jpg)no-repeat center fixed;
@@ -87,22 +86,25 @@ a:hover {
 }
 /*--social--*/
 .social {
-    float: right;
     padding: 0.8em 0 0;
+    text-align: right;
 }
-.social ul{
-	padding:0;
-	margin:0;
+.social ul {
+	padding: 0;
+	margin: 0;
 }
+
 .social ul li {
     display: inline-block;
-    margin: -9px 6px 10px -6px;
+    /*margin: -9px 6px 10px -6px;*/
 }
-.social ul li a.facebook{
-    background: url(../images/faceb.png) no-repeat 0px 0px; 
+.social ul li a {
     width: 32px;
     height: 32px;
     display: block;
+}
+.social ul li a.facebook{
+    background: url(../images/faceb.png) no-repeat 0px 0px; 
 }
 .social ul li a.twitter{
     background: url(../images/twit.png) no-repeat 0px 0px ;
@@ -110,11 +112,14 @@ a:hover {
 .social ul li a.chrome{
     background: url(../images/go.png) no-repeat 0px 0px ;
 }
-.social ul li a.in{
+.social ul li a.linkedin{
     background: url(../images/in.png) no-repeat 0px 0px ;
 }
-.social ul li a.facebook:hover{
+.social ul li a:hover {
 	opacity:.5;
+}
+.social .contacts {
+  color: #333;
 }
 /*--social--*/
 .top-nav {
@@ -231,8 +236,7 @@ ul.nav.navbar-nav li a.active {
 /*--testimonial strat here--*/
 .testimo {
     background: url(../images/testimonial.jpg)no-repeat center fixed;
-    background-size: 239% 100%;
-    min-height:350px;
+    background-size: cover;
     zoom: 1;
 }
 .testimo-main {
@@ -298,13 +302,14 @@ span.quot1 {
 /*--admission end here--*/
 /*--course strat here--*/
 .course-left {
-   /* background: url(../images/tfo.jpg)no-repeat;*/
     background-size: cover;
-    min-height: 500px;
 }
 .course-right {
-    margin-top: 7em;
-    padding: 0em 0em 0em 6em;
+    padding: 5em 0em 0em 6em;
+}
+.course-right.pull-right {
+  padding-left: 15px;
+  padding-right: 7em;
 }
 .course-right h6 {
     font-size: 1em;
@@ -323,7 +328,6 @@ span.quot1 {
     font-size: 0.95em;
     color: #767676;
     line-height: 1.8em;
-    width: 152%;
     margin: 1em 0;
 }
 .course-right a {
@@ -353,7 +357,6 @@ span.quot1 {
     font-size: 0.95em;
     color: #767676;
     line-height: 1.8em;
-    width: 67%;
     margin: 1em 0 0 -39em;
     text-align: justify
 }
@@ -371,6 +374,7 @@ span.quot1 {
 .course-left a:hover{
     background: #FBA919;
 }
+
 /*--footer start here--*/
 /*-- footer --*/
 .footer{
@@ -2188,4 +2192,31 @@ figure.effect-bubba h4.gal {
     right: 0;
     top: 0;
     z-index: 1000;
+}
+.footer-container {
+  display: flex;
+  justify-content: center;
+}
+.footer-links {
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-links a {
+  color: #fff;
+  display: block;
+}
+
+.course.agile .wow > img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 480px)  {
+  .banner,.testimo {
+    background-size: contain;
+  }
+  .footer-links {
+    width: 95%;
+  }
 }
