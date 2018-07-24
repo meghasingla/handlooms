@@ -39,13 +39,16 @@
 					 	<input type="text" class="long" name="subject" placeholder="SUBJECT">
 				         <textarea name="message" placeholder="MESSAGE"></textarea>
                         <input type="submit" value="Submit">
+                       <?php if(isset($_GET['message'])): ?>
+                       <div class="alert alert-success"><?= $_GET['message'] ?></div>
+                       <?php endif; ?>
 				</form>
 				
 				</div>
 		  <div class="clearfix"> </div>
 		</div>
 		<div class="map agileits-mp">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3477.1095544911245!2d76.99502381509936!3d29.367081282133757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sshivam+handloom+Plot+No.+5%2C+Risalu+Road%2C+Panipat-132103!5e0!3m2!1sen!2sin!4v1532075414548" style="border:0" allowfullscreen=""></iframe>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3477.1095544911245!2d76.99502381509936!3d29.367081282133757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sshivam+handloom+Plot+No.+5%2C+Risalu+Road%2C+Panipat-132103!5e0!3m2!1sen!2sin!4v1532075414548" style="border:0; width:100%;" allowfullscreen=""></iframe>
 		</div>
 	</div>
 </div>

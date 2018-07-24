@@ -42,7 +42,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="header">
 		<div class="container">	
 			<div class="col-md-7 logo wow fadeInLeft animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
-				<a href="index.html"><img src="images/logos123456.png  " ></a>
+				<a href="index.php"><img src="images/logos123456.png  " ></a>
 					
 			</div>
 			<div class="col-md-5 details wow fadeInRight animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
@@ -57,9 +57,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="contacts">
 						<div>
 							<span class="glyphicon glyphicon-envelope"></span>
-							<a href="mailto:info@example.com" style="color: #000000;">gargshivam555@gmail.com</a>&nbsp;
-							<span class="glyphicon glyphicon-earphone"></span>Call us now:+91 8930557700
+							<a href="mailto:info@example.com" style="color: #000000;">gargshivam555@gmail.com</a><br>
 						</div>
+						<div><span class="glyphicon glyphicon-earphone"></span>Call us now:+91 9416017861</div>
 					</div>
 			</div>
 			</div>

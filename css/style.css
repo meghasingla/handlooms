@@ -1597,7 +1597,7 @@ figure.effect-bubba h4 {
 }
 }
 /*--responsive design--*/
-@media(max-width:480px){
+@media(max-width:800px){
 .banner-bottom {
     width: 90%;
 }
@@ -2229,11 +2229,17 @@ figure.effect-bubba h4.gal {
   width: 100%;
 }
 
-@media only screen and (max-width: 480px)  {
+@media only screen and (max-width: 800px)  {
+  .banner.about {
+  }
   .banner,.testimo {
     background-size: contain;
   }
   .footer-links {
     width: 95%;
   }
+}
+
+.contacts > div {
+  display: inline-block;
 }

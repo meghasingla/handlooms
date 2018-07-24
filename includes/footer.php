@@ -37,7 +37,7 @@
 				<ul class="footer-address">
 					<li><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Plot No. 5, Risalu Road, Panipat-132103 </li>
 					<li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:Gargshivam555@gmail.com">gargshivam555@gmail.com</a></li>
-					<li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> Call us now: +91 8930557700</li>
+					<li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> Call us now: +91 9416017861</li>
 				</ul>
 			</div>
 			<div class="clearfix"> </div>

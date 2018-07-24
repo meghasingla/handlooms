@@ -31,4 +31,4 @@ $mailer->from('enquiry.crologic@gmail.com')
 	->subject('Enquiry Mail')
 	->html(parseTemplate('contact-user.html', $_REQUEST))->send($_REQUEST['email']);
 
-echo 'ok';
+header('Location: ' . '../contact.php?message=Your message has been submitted');
