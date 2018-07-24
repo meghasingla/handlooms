@@ -1,4 +1,5 @@
 <?php include 'includes/header.php'; ?>
+<div class="banner1">
 <link rel="stylesheet" href="css/about.css" />
 <!--welcome start here-->
 <!--about start here-->

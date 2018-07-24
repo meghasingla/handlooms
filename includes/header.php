@@ -77,13 +77,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
               </div>
 	   			<div id="navbar" class="navbar-collapse collapse">
 	              <ul class="nav navbar-nav wow fadeInRight animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
-	                  <li><a href="index.html" class="active">Home</a></li>
-					  <li><a href="about.html">About</a></li>
-					  <li><a href="services.html">Products</a></li>
+	                  <li><a href="index.php" class="active">Home</a></li>
+					  <li><a href="about.php">About</a></li>
+					  <li><a href="services.php">Products</a></li>
 					  <!-- <li><a href="shortcodes.html">Offers</a></li>-->
-					   <li><a href="gallery.html">Gallery</a></li>
-					   <li><a href="contact.html">Process Flow</a></li>
-					   <li><a href="contact.html">Contact</a></li>	        
+					   <li><a href="gallery.php">Gallery</a></li>
+					   <li><a href="process.php">Process Flow</a></li>
+					   <li><a href="contact.php">Contact</a></li>	        
 	              </ul>
 	            </div>
 			</div>
