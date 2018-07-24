@@ -46,20 +46,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					
 			</div>
 			<div class="col-md-5 details wow fadeInRight animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
-
 				<div class="social">
+				<?php if (false): ?>
 					<ul>
 						<li><a href="#" class="facebook"></a></li>
 						<li><a href="#" class="chrome"></a></li>
 						<li><a href="#" class="twitter"></a></li>
 						<li><a href="#" class="linkedin"> </a></li>
 					</ul>
+				<?php endif	 ?>
 					<div class="contacts">
 						<div>
 							<span class="glyphicon glyphicon-envelope"></span>
 							<a href="mailto:info@example.com" style="color: #000000;">gargshivam555@gmail.com</a><br>
 						</div>
-						<div><span class="glyphicon glyphicon-earphone"></span>Call us now:+91 9416017861</div>
+						<div><span class="glyphicon glyphicon-earphone"></span>&nbsp;Call us now:+91 9416017861</div>
 					</div>
 			</div>
 			</div>
@@ -88,15 +89,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	              </ul>
 	            </div>
 			</div>
-			</div>
-		
-	<div class="container">		
-		 <!--<div class="banner-bottom wow fadeInLeft animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
-		 	<div class="bann-para">
-		 	<h2>Impact</h2>
-		 	<p>Shivam Handloom works with expertise to produce beautiful, handwoven textiles using ancient techniques..</p>
-		   </div>
-		 </div>-->
-	</div> 
+		</div>
 </div>
 <!--header strat here-->
