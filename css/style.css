@@ -10,7 +10,7 @@ ul, ol {margin: 0;}
 p {margin: 0;}
 html, body{
 	font-family: 'Open Sans', sans-serif;
-   font-size: 100%;
+   font-size: 95%;
    background:#fff; 
 }
 a {
@@ -25,9 +25,11 @@ a:hover {
 }
 /*--header start here--*/
 .banner {
-    background: url(../images/2.jpg)no-repeat center fixed;
-    background-size: cover;
+    background: url(../images/2.jpg)no-repeat center fixed ;
+   /* background-size: cover;*/
+   width: 100%;
     min-height: 800px;
+    background-size:100% 100%;
 }
 .banner1 {
     background: url(../images/aboutus1.jpg)no-repeat center fixed;
@@ -35,35 +37,42 @@ a:hover {
     min-height:400px;
    
     width: 1351px;
+     background-size:100% ;
 }
 .banner2 {
     background: url(../images/products1.jpg)no-repeat center fixed;
     /*background-size: cover*/    min-height:400px;
+    background-size: 100%;
 }
 .banner3 {
     background: url(../images/contact1.jpg)no-repeat center fixed;
    /* background-size: cover;*/
     min-height:400px;
+     background-size:100% ;
 }
 .banner4 {
     background: url(../images/b5.jpg)no-repeat center fixed;
-    background-size: cover;
+   /* background-size: cover;*/
     min-height:400px;
+     background-size:100% ;
 }
 .banner5 {
     background: url(../images/flow1.jpg)no-repeat center fixed;
     /*background-size: cover;*/
     min-height:400px;
+     background-size:100% ;
 }
 .banner6 {
     background: url(../images/co.jpg)no-repeat center fixed;
 /*background-size: cover;*/
     min-height:400px;
+     background-size:100% ;
 }
 .banner7 {
     background: url(../images/gallery1.jpg)no-repeat center fixed;
     /*background-size: cover*/ 
        min-height:400px;
+        background-size:100% ;
 }
 
 .header {
@@ -87,7 +96,7 @@ a:hover {
 }
 .social ul li {
     display: inline-block;
-    margin: 0 -1px;
+    margin: -9px 6px 10px -6px;
 }
 .social ul li a.facebook{
     background: url(../images/faceb.png) no-repeat 0px 0px; 
@@ -110,6 +119,7 @@ a:hover {
 /*--social--*/
 .top-nav {
     background: #006699;
+    width: 105%;
 
 }
 .navbar-nav {
@@ -212,7 +222,7 @@ ul.nav.navbar-nav li a.active {
     font-size: 0.95em;
     color: #767676;
     width: 100%;
-    margin: 0 auto;
+    margin: 0 auto 0 ;
     line-height: 1.8em;
     text-align: justify;
     font-weight: 900px;
@@ -221,7 +231,7 @@ ul.nav.navbar-nav li a.active {
 /*--testimonial strat here--*/
 .testimo {
     background: url(../images/testimonial.jpg)no-repeat center fixed;
-    background-size: cover;
+    background-size: 239% 100%;
     min-height:350px;
     zoom: 1;
 }
@@ -288,7 +298,7 @@ span.quot1 {
 /*--admission end here--*/
 /*--course strat here--*/
 .course-left {
-    background: url(../images/tfo.jpg)no-repeat;
+   /* background: url(../images/tfo.jpg)no-repeat;*/
     background-size: cover;
     min-height: 500px;
 }
@@ -313,7 +323,7 @@ span.quot1 {
     font-size: 0.95em;
     color: #767676;
     line-height: 1.8em;
-    width: 81%;
+    width: 152%;
     margin: 1em 0;
 }
 .course-right a {
@@ -416,7 +426,7 @@ span.quot1 {
 }
 .footer-grid-left{
 	float:left;
-	width:33.33%;
+	width:14.33%;
 }
 .footer-grid-left img{
 	border:1px solid #A6A6A6;

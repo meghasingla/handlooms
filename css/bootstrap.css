@@ -1119,6 +1119,7 @@ figure {
 }
 img {
   vertical-align: middle;
+  
 }
 .img-responsive,
 .thumbnail > img,
@@ -1944,7 +1945,7 @@ pre code {
     width: 75%;
   }
   .col-md-8 {
-    width: 66.66666667%;
+    width: 58.66666667%;
   }
   .col-md-7 {
     width: 58.33333333%;

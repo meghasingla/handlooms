@@ -5,8 +5,8 @@ require(__DIR__ . '/../vendor/autoload.php');
 
 $mailer = new Mailer([
 	'host' => 'smtp.gmail.com',
-	'username' => 'enquiry.crologic@gmail.com ',
-	'password' => 'Passw0rd@123',
+	'username' => 'shivamhandloomindustry@gmail.com ',
+	'password' => 'Shivam@123',
 	'port' => '465',
 	'encryption' => 'ssl'
 ]);
@@ -24,10 +24,10 @@ function parseTemplate($tpl, $data) {
 $mailer->from('enquiry.crologic@gmail.com')
 	->replyTo($_REQUEST['email'])
 	->subject('Enquiry Mail')
-	->html(parseTemplate('contact-mail.html', $_REQUEST))->send('info@crologic.net');
+	->html(parseTemplate('contact-mail.html', $_REQUEST))->send('shivamhandloomindustry@gmail.com');
 
 $mailer->from('enquiry.crologic@gmail.com')
-	->replyTo('info@crologic.net')
+	->replyTo('shivamhandloomindustry@gmail.com')
 	->subject('Enquiry Mail')
 	->html(parseTemplate('contact-user.html', $_REQUEST))->send($_REQUEST['email']);
 
