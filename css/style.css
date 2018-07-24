@@ -24,30 +24,33 @@ a:hover {
   text-decoration: none;
 }
 /*--header start here--*/
-.banner {
-  background-size: cover;
-  width: 100%;
-  min-height: 800px;
-}
+
 .banner.index {
-    background: url(../images/2.jpg) no-repeat center fixed ;
+    background-image: url(../images/2.jpg);
 }
 .banner.about {
-    background: url(../images/aboutus1.jpg)no-repeat center fixed;
+    background-image: url(../images/aboutus1.jpg);
 }
 .banner.services {
-    background: url(../images/products1.jpg)no-repeat center fixed;
+    background-image: url(../images/products1.jpg);
 }
 .banner.process {
-    background: url(../images/flow1.jpg)no-repeat center fixed;
+    background-image: url(../images/flow1.jpg);
 }
 .banner.gallery {
-    background: url(../images/gallery1.jpg)no-repeat center fixed;
+    background-image: url(../images/gallery1.jpg);
 }
 .banner.contact {
-    background: url(../images/contact1.jpg)no-repeat center fixed;
+    background-image: url(../images/contact1.jpg);
 }
-
+.banner {
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 800px;
+  margin-left: -15px; 
+  margin-right: -15px; 
+  background-position: center;
+}
 /*.banner1 {
     /*background-size: cover;*/
   /*  min-height:400px;
@@ -141,18 +144,13 @@ a:hover {
 /*--social--*/
 .top-nav {
     background: #006699;
-    width: 105%;
-
 }
 .navbar-nav {
     float:none !important; 
     margin: 0;
 
 }
-.navbar-nav > li {
-    text-align: center;
 
-}
 div#navbar {
     padding: 0px !important;
 }
@@ -1182,13 +1180,6 @@ textarea {
 .navbar-toggle {
     background-color: rgb(160, 67, 27);
 }
-.navbar-toggle {
-    float: none;
-}
-.navbar-header {
-    text-align: center;
-     margin-right:0px; 
-}
 .addre p {
     font-size: 0.75em;
 }
@@ -1571,9 +1562,6 @@ h3.typo1 {
 }
 .details {
     width: 60%;
-}
-.navbar-toggle {
-    margin-right:0px
 }
 /*--typo--*/
 button.btn.btn-lg {
@@ -2228,9 +2216,7 @@ figure.effect-bubba h4.gal {
   width: 100%;
 }
 
-@media only screen and (max-width: 800px)  {
-  .banner.about {
-  }
+@media only screen and (max-width: 768px)  {
   .banner,.testimo {
     background-size: contain;
   }

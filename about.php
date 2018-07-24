@@ -75,10 +75,10 @@
 <!--about end here-->
 <div class="container">
 	<div class="course agile row">
-		<div class="col-md-6 course-left wow fadeInLeft animated" data-wow-delay=".5s">
+		<div class="col-md-6 course-left wow fadeInLeft" data-wow-delay=".5s">
 			<img src="images/powerlooms.jpg">
 		</div>
-		<div class="col-md-6 course-right wow fadeInRight animated" data-wow-delay=".5s">
+		<div class="col-md-6 course-right wow fadeInRight" data-wow-delay=".5s">
 			<h3>Powerlooms</h3>
 			<p> Shivam Handloom have ninety Power Looms , which is especially designed for hand-loom industry. </p>
 		    <p>The products are made using powerlooms as per the customer requirements.</p>
@@ -86,12 +86,12 @@
 
 	    <div class="clearfix"></div>
 
-	    <div class="col-md-6 pull-right course-left wow animated fadeInRight"
+	    <div class="col-md-6 pull-right course-left wow fadeInRight"
 		   	data-wow-delay=".5s">
 		   	<img src="images/tfo.jpg">
 		</div>
 
-		<div class="col-md-6 course-right pull-right wow animated fadeInLeft">
+		<div class="col-md-6 course-right pull-right wow fadeInLeft">
 			<h3>Two For One Twisting</h3>
 			<p>Shivam Handloom have three TFO (Two-For-One-Twisting), which is used for making cotton yarn.</p>
 		    <p>We are offering a quality tested array of TFO Twisted Cotton Yarn.</p>
@@ -99,10 +99,10 @@
 
 		<div class="clearfix"></div>
 
-		<div class="col-md-6 course-left wow animated fadeInLeft" data-wow-delay=".5s">
+		<div class="col-md-6 course-left wow fadeInLeft" data-wow-delay=".5s">
 		   	<img src="images/shuttleless.jpg">
 		</div>
-		<div class="col-md-6 course-right wow animated fadeInRight" data-wow-delay=".5s">
+		<div class="col-md-6 course-right wow fadeInRight" data-wow-delay=".5s">
 			<h3>Shuttleless</h3>
 			<p> Shivam Handloom have twelve Shuttleless, which gives the excellent fabric. </p>
 		    <p>The products are made using Shuttleless as per the customer requirements.</p>
