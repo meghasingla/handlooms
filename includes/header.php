@@ -1,3 +1,4 @@
+<?php $page = pathinfo($_SERVER['PHP_SELF'], PATHINFO_FILENAME); ?>
 <!--Author: W3layouts
 Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
@@ -36,7 +37,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 <body>
 <!--header start here-->
-<div class="banner">
+<div class="banner <?=$page ?>">
 
 		<div class="header">
 		<div class="container">	
