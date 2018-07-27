@@ -38,10 +38,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <body>
 <!--header start here-->
 
+
 <div class="container-fluid">
 	<div class="banner <?=$page ?>">
 
 							<div class="header">
+
+<div class="container-fluid">
+	<div class="banner <?=$page ?>">
+
+			<div class="header">
+
 			<div class="container">	
 				<div class="col-md-7 logo wow fadeInLeft animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
 					<a href="index.php"><img src="images/logos123456.png  " ></a>
@@ -61,11 +68,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div>
 								<span class="glyphicon glyphicon-envelope"></span>
 								<a href="mailto:info@example.com" style="color: #000000;">gargshivam555@gmail.com</a><br>
+
+
+							</div>
+							<div><span class="glyphicon glyphicon-earphone"></span>&nbsp;Call us now:+91 9416017861</div>
+
 						</div>
-						<div><span class="glyphicon glyphicon-earphone"></span>&nbsp;Call us now:+91 9416017861</div>
-					</div>
+				</div>
+				</div>
+			  <div class="clearfix"> </div>
 			</div>
 			</div>
+
 		  <div class="clearfix"> </div>
 		</div>
 		</div>
@@ -91,6 +105,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	              </ul>
 	            </div>-->
 	            <div class="top-nav">
+
+			<div class="top-nav">
+
 			<div class="container">	
 				<div class="navbar-header">
 		   			 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -112,7 +129,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		              </ul>
 		            </div>
 				</div>
+
 			
 		</div>
+
+			</div>
+	</div>
+
 </div>
 <!--header strat here-->
