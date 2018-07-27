@@ -58,9 +58,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="contacts">
 							<div>
 								<span class="glyphicon glyphicon-envelope"></span>
-								<a href="mailto:info@example.com" style="color: #000000;">gargshivam555@gmail.com</a><br>
-							</div>
-							<div><span class="glyphicon glyphicon-earphone"></span>&nbsp;Call us now:+91 9416017861</div>
+								<a href="mailto:info@example.com" style="color: #000000;">gargshivam555@gmail.com</a>
+							&nbsp;
+							<div><span class="glyphicon glyphicon-earphone"></span>&nbsp;Call us now:+91 9416017861,<br>+91 8930557700</div>
 						</div>
 				</div>
 				</div>

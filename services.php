@@ -6,7 +6,7 @@
 <div class="container latest-product-section">
                 <div class="row text-center margin-b-40">
                     <div class="col-sm-6 col-sm-offset-3">
-                        <h2>Latest Products</h2>
+                        <h2> Our Products</h2>
 
                     </div>
                 </div>
