@@ -32,23 +32,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </script>
 <!-- //animation-effect -->
 <style>
-
 </style>
 </head>
 <body>
 <!--header start here-->
-
-
-<div class="container-fluid">
-	<div class="banner <?=$page ?>">
-
-							<div class="header">
-
 <div class="container-fluid">
 	<div class="banner <?=$page ?>">
 
 			<div class="header">
-
 			<div class="container">	
 				<div class="col-md-7 logo wow fadeInLeft animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
 					<a href="index.php"><img src="images/logos123456.png  " ></a>
@@ -68,46 +59,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div>
 								<span class="glyphicon glyphicon-envelope"></span>
 								<a href="mailto:info@example.com" style="color: #000000;">gargshivam555@gmail.com</a><br>
-
-
 							</div>
 							<div><span class="glyphicon glyphicon-earphone"></span>&nbsp;Call us now:+91 9416017861</div>
-
 						</div>
 				</div>
 				</div>
 			  <div class="clearfix"> </div>
 			</div>
 			</div>
-
-		  <div class="clearfix"> </div>
-		</div>
-		</div>
-		<!--<div class="top-nav">
-		<div class="container">	
-			<div class="navbar-header">
-	   			 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-	                <span class="sr-only">Toggle navigation</span>
-	                <span class="icon-bar"></span>
-	                <span class="icon-bar"></span>
-	                <span class="icon-bar"></span>
-                </button>
-              </div>
-	   			<div id="navbar" class="navbar-collapse collapse">
-	              <ul class="nav navbar-nav wow fadeInRight animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
-	                  <li><a href="index.php" class="active">Home</a></li>
-					  <li><a href="about.php">About</a></li>
-					  <li><a href="services.php">Products</a></li>
-					  <!-- <li><a href="shortcodes.html">Offers</a></li>-->
-					   <!--<li><a href="gallery.php">Gallery</a></li>
-					   <li><a href="process.php">Process Flow</a></li>
-					   <li><a href="contact.php">Contact</a></li>	        
-	              </ul>
-	            </div>-->
-	            <div class="top-nav">
-
 			<div class="top-nav">
-
 			<div class="container">	
 				<div class="navbar-header">
 		   			 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -129,12 +89,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		              </ul>
 		            </div>
 				</div>
-
-			
-		</div>
-
 			</div>
 	</div>
-
 </div>
 <!--header strat here-->

@@ -69,23 +69,31 @@ a:hover {
  }
 
 
-.banner.index {
+/*.banner.index {
     background-image: url(../images/2.jpg);
 }
 .banner.about {
-    background-image: url(../images/aboutus1.jpg);
+    background-image: url(../images/abtttt.jpg);
+    min-height: 400px;
 }
 .banner.services {
-    background-image: url(../images/products1.jpg);
+    background-image: url(../images/productsss.jpg);
+      min-height: 400px;
 }
 .banner.process {
-    background-image: url(../images/flow1.jpg);
+    background-image: url(../images/flows.jpg);
+    min-height: 400px;
+
 }
 .banner.gallery {
-    background-image: url(../images/gallery1.jpg);
+    background-image: url(../images/galleryss.jpg);
+    min-height: 400px;
+
 }
 .banner.contact {
-    background-image: url(../images/contact1.jpg);
+    background-image: url(../images/contactss.jpg);
+    min-height: 400px;
+
 }
 .banner {
   background-size: cover;
@@ -94,7 +102,7 @@ a:hover {
   margin-left: -15px; 
   margin-right: -15px; 
   background-position: center;
-}
+}*/
 
 /*.banner1 {
     /*background-size: cover;*/
