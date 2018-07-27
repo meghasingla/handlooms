@@ -1,8 +1,10 @@
+
 <!--footer start here-->
 <div class="footer agileits-f">
 		<div class="container">
 			<div class="col-md-4 footer-grid w3-f wow fadeInLeft animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
-				<h3 style="font-family: Proxima Nova;font-weight: normal;"><center>Who we are</center></h3>
+				 <img src="images/logos123456.png"  style="width: 25%;margin-left: 97px;margin-top: -12px;" >
+				<h3 style="font-family: Proxima Nova;font-weight: normal;"><center></center></h3>
 
 				<!--<a href="index.html"><img src="images/logosef.png" width="70%" style="margin-top: -13px;margin-bottom: 0px;"></a>-->
 				<p>Shivam Handloom works with expertise to produce beautiful handloom products.</p>

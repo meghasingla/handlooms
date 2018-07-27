@@ -1,6 +1,6 @@
-body {
-    font-family: Proxima Nova;font-size: 17px;
-}
+/*body {
+    font-family: Proxima Nova;font-size: 95%;
+}*/
 .latest-product-section {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -16,7 +16,7 @@ p {
     font-weight: 400;
     color: #6b6b6d;
     margin-bottom: 15px;
-    text-align: justify;
+  
 
 }
 h1, h2, h3, h4, h5, h6 {
@@ -49,7 +49,7 @@ h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
 span {
     font-size: 14px;
     font-weight: 400;
-    color: #fff;
+   
 }
 a:active, a:focus, a:hover {
     color: #138AC3;
